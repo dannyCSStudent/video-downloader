@@ -4,9 +4,9 @@ import { Navbar, Footer } from '@/components';
 const layout = ({ children }) => {
   return (
     <>
-    <Navbar />
-    {children}
-    <Footer />
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }
